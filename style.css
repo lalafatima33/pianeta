@@ -1,3 +1,82 @@
+body{
+  background-color: black;
+  background: url(cielo.jpg);
+}
+div{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+}
+
+
+.blue{
+  width: 480px;
+  height: 480px;
+  animation: sole 6s linear infinite;
+}
+.earth{
+  width: 80px;
+  height:80px;
+  background: blue;
+  border-radius: 25% 40% 40% 25%;
+  animation: pluton 4s linear infinite;
+}
+
+.red{
+  width: 200px;
+  height: 200px;
+  animation: sole 5s linear infinite;
+
+}
+.sun {
+  width: 80px;
+  height: 80px;
+  background: red;
+  border-radius: 10% 70% 70% 10%;
+  animation: pluton 4s linear infinite;
+}
+.verde{
+  width: 250px;
+  height: 250px;
+  animation: sole 3s linear infinite;
+}
+.mercury  {
+  width: 80px;
+  height: 80px;
+  background-color: green;
+  border-radius: 40% 40%;
+  animation: pluton 4s linear infinite;
+}
+.yellow {
+  width: 250px;
+  height: 250px;
+  animation: sole 6s linear infinite;
+  
+}
+.venus{
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  border-radius: 50% 20%;
+  animation: pluton 4s linear infinite;
+  
+}
+
+.white{
+  width: 350px;
+  height: 350px;
+  animation: sole 6s linear infinite; 
+}
+.mars{
+  width: 80px;
+  height: 80px;
+ background-color: white;
+ border-radius: 30% 50% ;
+ animation: pluton 4s linear infinite;
+}
 .rosa{
   width: 300px;
   height: 300px;
@@ -54,31 +133,3 @@
     transform: rotate(0deg);
   }
 }
-
-/* }
-
-@keyframes giro{
-  from{
-    transform: rotate(360deg);
-  }
-  to{
-    transform: rotate(0);
-  }
-}
-@keyframes girotondo{
-  from{
-    transform: rotate(0deg) translateX(100%) rotate(-0deg);
-
-  }
-  to{
-    transform: rotate(360deg) translateX(100%) rotate(-360deg);
-  }
-}
-@keyframes sole{
-  from{
-    transform: rotate(0deg);
-  }
-  to{
-    transform: rotate(360deg);
-  }
-} */
